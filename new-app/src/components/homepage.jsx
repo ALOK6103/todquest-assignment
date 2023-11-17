@@ -20,6 +20,18 @@ import Vector from "../images/Vector.png";
 import Card from "../images/Card.png";
 import content from "../images/content.png";
 import Phone from "../images/Phone.png";
+import f2 from "../images/f2.png";
+import f22 from "../images/f22.png";
+import f23 from "../images/f23.png";
+// import f24 from "../images/f24.png";
+import f1 from "../images/f1.png";
+import a from "../images/a.png";
+
+
+
+
+
+
 
 
 
@@ -257,7 +269,7 @@ ands the latest news</p>
         <p className="title7" >Popular Categories</p>
 
         <div>
-        <table>
+        {/* <table> */}
       {/* <thead>
         <tr>
           <th>ID</th>
@@ -266,19 +278,37 @@ ands the latest news</p>
           {/* Add more columns as needed */}
         {/* </tr>
       </thead> */} 
-      <tbody>
+      {/* <tbody>
         {data.map((row) => (
           <tr key={row.id} style={{border:"1px solid black"}} >
-            <td>{row.id}</td>
+            <td >{row.id}</td>
             <td>{row.name}</td>
             <td>{row.email}</td>
             {/* Add more cells as needed */}
-          </tr>
+          {/* </tr>
         ))}
       </tbody>
-    </table>
+    </table> */} 
+
+    <img src={a} alt="" />
         </div>
         </div>
+      </div>
+
+      <div className="footer" >
+      <div>
+            <img src={f1} alt="" />
+        </div>
+        <div>
+            <img src={f2} alt="" />
+        </div>
+        <div>
+            <img src={f22} alt="" />
+        </div>
+        <div>
+            <img src={f23} alt="" />
+        </div>
+        
       </div>
 
       {/* ... */}
